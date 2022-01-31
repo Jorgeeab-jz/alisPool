@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #242735;
+}
+
+.header{
+    text-align: center;
+    background-color: #11131b;
+    height: 120px;
+}
+
+.header img{
+    margin-top: -10px;
+    width: 200px;
+    height: auto;
+}
+
+#content {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    height: 75vh;
+    width: auto;
+}
+
+#menu {
+    align-self: center;
+    border-radius: 5%;
+    background-color: #171924;
+    box-shadow: 0px 5px 20px #0b0c11;
+    margin: 0;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 280px;
+    height: 95px;
+    padding: auto;
+}
+
+#menu img {
+    margin: 0;
+    margin: auto;
+    width: 45px;
+    height: auto;
+
+}
+
+.display {
+    width: 100;
+    height: auto;
+    text-align: center;
+    margin: auto;   
+    display: block;
+}
+
+.axieCont {
+    border-radius: 5%;
+    background-color: #1d1f2b;
+    border: 1px solid #12131a;
+    width: 210px;
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+    margin-bottom: 20px;
+}
+
+.axieCont img{
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
+.axieCont h4{
+    color: white;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.disabled {
+    opacity: 50%;
+}
